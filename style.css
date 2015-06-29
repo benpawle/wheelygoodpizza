@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url("tradegothic/stylesheet.css");
+@import url("domine-regular/stylesheet.css");
+@import url("domine-bold/stylesheet.css");
+
+html, body {
+    font-family: "domine-regular";
+    font-size: 14px;
+    line-height: 160%;
+    background-color: rgb(245, 245, 245);
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo-header {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    height: 130px;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.1);
+}
+
+.logo {
+    width: 230px;
+    margin-top: 15px;
+}
+
+.email {
+    font-family: 'domine-regular';
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.nextevent-container {
+    width: 200px;
+    margin-top: 20vh;
+    margin-left: auto;
+    background-color: white;
+    padding: 30px;
+    padding-bottom: 36px;
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+
+@media screen and (max-width: 40em) {
+    .nextevent-container {
+        width: 100%;
+        margin-top: 70vh;
+        padding-bottom: 30px;
+        display: block;
+        padding-top: 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        }
+}
+
+.nextevent-header {
+    text-align: center;
+    font-family: "domine-bold";
+    color: rgb(99, 76, 250);
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+
+.nextevent-day {
+    text-align: center;
+    font-family: "tradegothicbold";
+    color: black;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.nextevent-place {
+    text-align: center;
+    font-family: "tradegothicbold";
+    color: black;
+    font-size: 18px;
+}
+
+.nextevent-email {
+    text-align: center;
+    font-family: "domine-regular";
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 20px;
+}
+
+
+.wrapper {
+    height: calc(100vh - 130px);
+    width: 100vw;
+    position: relative;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-family: "rexbold";
+    letter-spacing: 0.5px;
+    margin: 0;
+    line-height: inherit;
+    color: rgb(0, 194, 178);
+}
+
+
+h5 {
+    font-size: 15px;
+    text-align: left;
+    font-family: "tradegothicbold";
+    line-height: 20px;
+    letter-spacing: -1;
+    margin: 0;
+    text-decoration:underline;
+    color: rgb(255,255,255);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
