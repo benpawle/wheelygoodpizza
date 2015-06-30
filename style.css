@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @import url("tradegothic/stylesheet.css");
-@import url("domine-regular/stylesheet.css");
-@import url("domine-bold/stylesheet.css");
+@import url("domineregular/stylesheet.css");
+@import url("dominebold/stylesheet.css");
 
 html, body {
-    font-family: "domine-regular";
+    font-family: "domineregular";
     font-size: 14px;
     line-height: 160%;
     background-color: rgb(245, 245, 245);
@@ -31,7 +31,7 @@ html {
 }
 
 .email {
-    font-family: 'domine-regular';
+    font-family: 'domineregular';
     display: block;
     margin-top: 15px;
     margin-left: auto;
@@ -66,7 +66,7 @@ html {
 
 .nextevent-header {
     text-align: center;
-    font-family: "domine-bold";
+    font-family: "dominebold";
     color: rgb(99, 76, 250);
     font-size: 14px;
     letter-spacing: 1px;
@@ -93,7 +93,7 @@ html {
 
 .nextevent-email {
     text-align: center;
-    font-family: "domine-regular";
+    font-family: "domineregular";
     font-size: 14px;
     line-height: 160%;
     margin-top: 20px;
