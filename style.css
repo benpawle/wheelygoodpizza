@@ -108,6 +108,14 @@ html {
     position: relative;
 }
 
+.mobile-background {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .row {
     margin-right: 0px;
 }
