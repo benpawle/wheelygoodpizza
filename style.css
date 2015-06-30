@@ -49,19 +49,20 @@ html {
     display: block;
     position: absolute;
     right: 5%;
+    text-align: center;
 }
 
 @media screen and (max-width: 40em) {
     .nextevent-container {
-        width: 70%;
+        width: 80%;
         margin-top: 10vh;
         padding-top: 35px;
         padding-bottom: 40px;
         display: block;
         background-color: rgba(255,255,255,0.96);
         position: absolute;
-        left: 15%;
-        right: 15%;
+        left: 10%;
+        right: 10%;
         }
 }
 
