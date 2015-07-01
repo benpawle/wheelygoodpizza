@@ -106,11 +106,11 @@ html {
     height: calc(100vh - 130px);
     width: 100vw;
     position: relative;
+    overflow: hidden;
 }
 
 .mobile-background {
-    height: 100%;
-    overflow: hidden;
+    width: 100vw;
     position: absolute;
     left: 0;
     top: 0;
